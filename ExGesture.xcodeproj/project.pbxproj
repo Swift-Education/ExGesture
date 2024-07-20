@@ -13,6 +13,8 @@
 		B5E89BC82C493B57003434AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E89BC72C493B57003434AC /* Assets.xcassets */; };
 		B5E89BCB2C493B57003434AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E89BC92C493B57003434AC /* LaunchScreen.storyboard */; };
 		B5E89BD32C4A0672003434AC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD22C4A0672003434AC /* View.swift */; };
+		B5E89BD52C4A0B2F003434AC /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD42C4A0B2F003434AC /* Gesture.swift */; };
+		B5E89BD72C4A0F42003434AC /* GestureRecognizerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD62C4A0F42003434AC /* GestureRecognizerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B5E89BCA2C493B57003434AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E89BCC2C493B57003434AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5E89BD22C4A0672003434AC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B5E89BD42C4A0B2F003434AC /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
+		B5E89BD62C4A0F42003434AC /* GestureRecognizerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				B5E89BC12C493B56003434AC /* AppDelegate.swift */,
 				B5E89BC32C493B56003434AC /* SceneDelegate.swift */,
+				B5E89BD42C4A0B2F003434AC /* Gesture.swift */,
 				B5E89BC52C493B56003434AC /* ViewController.swift */,
 				B5E89BD22C4A0672003434AC /* View.swift */,
 				B5E89BC72C493B57003434AC /* Assets.xcassets */,
 				B5E89BC92C493B57003434AC /* LaunchScreen.storyboard */,
 				B5E89BCC2C493B57003434AC /* Info.plist */,
+				B5E89BD62C4A0F42003434AC /* GestureRecognizerBuilder.swift */,
 			);
 			path = ExGesture;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			files = (
 				B5E89BD32C4A0672003434AC /* View.swift in Sources */,
 				B5E89BC62C493B56003434AC /* ViewController.swift in Sources */,
+				B5E89BD52C4A0B2F003434AC /* Gesture.swift in Sources */,
 				B5E89BC22C493B56003434AC /* AppDelegate.swift in Sources */,
 				B5E89BC42C493B56003434AC /* SceneDelegate.swift in Sources */,
+				B5E89BD72C4A0F42003434AC /* GestureRecognizerBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
