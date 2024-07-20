@@ -7,14 +7,24 @@
 
 import UIKit
 
-class View: UIView {
+final class View: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        layout()
+    }
+    
+    init(frame: CGRect, gesture: UIGestureRecognizer) {
+        super.init(frame: frame)
+        
+        addGestureRecognizer(gesture)
+        layout()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+    private func layout() {
+        backgroundColor = .systemBackground
 }
