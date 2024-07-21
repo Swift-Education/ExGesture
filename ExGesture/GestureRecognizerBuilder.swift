@@ -10,7 +10,8 @@ import UIKit
 class GestureRecognizerBuilder {
     private let gesture: UIGestureRecognizer!
     private let target: Any?
-    static func selectGesture(type: Gesture, target: Any?) -> GestureRecognizerBuilder {
+    
+    static func makeGesture(type: Gesture, target: Any?) -> GestureRecognizerBuilder {
         return GestureRecognizerBuilder(type: type, target: target)
     }
     
@@ -21,7 +22,7 @@ class GestureRecognizerBuilder {
     
     func build() -> UIGestureRecognizer {
         gesture.addTarget(target!, action: #selector(tapPiece(_:)))
-//        let tap = UITapGestureRecognizer(target: self, action: #selector(tapPiece(_:)))
+        
         return gesture
     }
     
