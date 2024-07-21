@@ -8,13 +8,14 @@
 import UIKit
 
 final class ViewController: UIViewController {
-
+    private var gestureBuilder: GestureRecognizerBuilder!
+    
     override func loadView() {
         super.loadView()
         
-        let gesture = GestureRecognizerBuilder
-                      .makeGesture(type: .tap, target: self)
-                      .build()
+        gestureBuilder = GestureRecognizerBuilder
+                      .makeGesture(type: .tap)
+        let gesture = gestureBuilder.build()
         view = View(frame: view.bounds, gesture: gesture)
     }
     
