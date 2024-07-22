@@ -15,6 +15,7 @@
 		B5E89BD32C4A0672003434AC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD22C4A0672003434AC /* View.swift */; };
 		B5E89BD52C4A0B2F003434AC /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD42C4A0B2F003434AC /* Gesture.swift */; };
 		B5E89BD72C4A0F42003434AC /* GestureRecognizerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD62C4A0F42003434AC /* GestureRecognizerBuilder.swift */; };
+		B5E89BE82C4D279A003434AC /* GestureRecognizerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BE72C4D279A003434AC /* GestureRecognizerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B5E89BD22C4A0672003434AC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		B5E89BD42C4A0B2F003434AC /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 		B5E89BD62C4A0F42003434AC /* GestureRecognizerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerBuilder.swift; sourceTree = "<group>"; };
+		B5E89BE72C4D279A003434AC /* GestureRecognizerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B5E89BC92C493B57003434AC /* LaunchScreen.storyboard */,
 				B5E89BCC2C493B57003434AC /* Info.plist */,
 				B5E89BD62C4A0F42003434AC /* GestureRecognizerBuilder.swift */,
+				B5E89BE72C4D279A003434AC /* GestureRecognizerFactory.swift */,
 			);
 			path = ExGesture;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				B5E89BD32C4A0672003434AC /* View.swift in Sources */,
 				B5E89BC62C493B56003434AC /* ViewController.swift in Sources */,
+				B5E89BE82C4D279A003434AC /* GestureRecognizerFactory.swift in Sources */,
 				B5E89BD52C4A0B2F003434AC /* Gesture.swift in Sources */,
 				B5E89BC22C493B56003434AC /* AppDelegate.swift in Sources */,
 				B5E89BC42C493B56003434AC /* SceneDelegate.swift in Sources */,
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExGesture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL4QTRRKMD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExGesture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
