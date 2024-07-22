@@ -18,7 +18,6 @@ class GestureRecognizerFactory {
     }
     
     func makeTapGesture(target: Any?, action: Selector) -> UITapGestureRecognizer {
-        print(#function)
         let tap = UITapGestureRecognizer(target: target, action: action)
         // 탭수
         tap.numberOfTapsRequired = 1
@@ -28,7 +27,6 @@ class GestureRecognizerFactory {
     }
     
     func makeLongPressGesture(target: Any?, action: Selector) -> UILongPressGestureRecognizer {
-        print(#function)
         let tap = UILongPressGestureRecognizer(target: target, action: action)
         tap.minimumPressDuration = 0.5
         tap.numberOfTapsRequired = 0
@@ -37,7 +35,6 @@ class GestureRecognizerFactory {
     }
     
     func makePanGesture(target: Any?, action: Selector) -> UIPanGestureRecognizer {
-        print(#function)
         let tap = UIPanGestureRecognizer(target: target, action: action)
         tap.minimumNumberOfTouches = 1
         tap.maximumNumberOfTouches = NSIntegerMax
@@ -45,7 +42,6 @@ class GestureRecognizerFactory {
     }
     
     func makeSwipeGesture(target: Any?, action: Selector) -> UISwipeGestureRecognizer {
-        print(#function)
         let tap = UISwipeGestureRecognizer(target: target, action: action)
         // 손가락수
         tap.numberOfTouchesRequired = 1
@@ -55,13 +51,11 @@ class GestureRecognizerFactory {
     }
     
     func makePinchGesture(target: Any?, action: Selector) -> UIPinchGestureRecognizer {
-        print(#function)
         let tap = UIPinchGestureRecognizer(target: target, action: action)
         return tap
     }
     
     func makeRotationGesture(target: Any?, action: Selector) -> UIRotationGestureRecognizer {
-        print(#function)
         let tap = UIRotationGestureRecognizer(target: target, action: action)
         return tap
     }
