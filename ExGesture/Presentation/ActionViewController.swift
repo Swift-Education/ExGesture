@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ActionViewController.swift
 //  ExGesture
 //
 //  Created by 강동영 on 7/18/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class ActionViewController: UIViewController {
     
     override func loadView() {
         super.loadView()

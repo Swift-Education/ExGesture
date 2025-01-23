@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B523DA0F2D41EF2900DA326F /* AdditiveColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523DA0E2D41EF2900DA326F /* AdditiveColorViewController.swift */; };
+		B523DA112D41F06400DA326F /* RouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523DA102D41F06400DA326F /* RouterViewController.swift */; };
 		B5E89BC22C493B56003434AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC12C493B56003434AC /* AppDelegate.swift */; };
 		B5E89BC42C493B56003434AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC32C493B56003434AC /* SceneDelegate.swift */; };
-		B5E89BC62C493B56003434AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC52C493B56003434AC /* ViewController.swift */; };
+		B5E89BC62C493B56003434AC /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC52C493B56003434AC /* ActionViewController.swift */; };
 		B5E89BC82C493B57003434AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E89BC72C493B57003434AC /* Assets.xcassets */; };
 		B5E89BCB2C493B57003434AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E89BC92C493B57003434AC /* LaunchScreen.storyboard */; };
 		B5E89BD32C4A0672003434AC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BD22C4A0672003434AC /* View.swift */; };
@@ -18,10 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B523DA0E2D41EF2900DA326F /* AdditiveColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditiveColorViewController.swift; sourceTree = "<group>"; };
+		B523DA102D41F06400DA326F /* RouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewController.swift; sourceTree = "<group>"; };
 		B5E89BBE2C493B56003434AC /* ExGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E89BC12C493B56003434AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E89BC32C493B56003434AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5E89BC52C493B56003434AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5E89BC52C493B56003434AC /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		B5E89BC72C493B57003434AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E89BCA2C493B57003434AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E89BCC2C493B57003434AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,8 +86,10 @@
 		B5E89C702C4EC458003434AC /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B5E89BC52C493B56003434AC /* ViewController.swift */,
+				B5E89BC52C493B56003434AC /* ActionViewController.swift */,
 				B5E89BD22C4A0672003434AC /* View.swift */,
+				B523DA0E2D41EF2900DA326F /* AdditiveColorViewController.swift */,
+				B523DA102D41F06400DA326F /* RouterViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -168,9 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E89BD32C4A0672003434AC /* View.swift in Sources */,
-				B5E89BC62C493B56003434AC /* ViewController.swift in Sources */,
+				B5E89BC62C493B56003434AC /* ActionViewController.swift in Sources */,
+				B523DA0F2D41EF2900DA326F /* AdditiveColorViewController.swift in Sources */,
 				B5E89BE82C4D279A003434AC /* GestureRecognizerFactory.swift in Sources */,
 				B5E89C6F2C4EBEED003434AC /* UILabelBuilder.swift in Sources */,
+				B523DA112D41F06400DA326F /* RouterViewController.swift in Sources */,
 				B5E89BC22C493B56003434AC /* AppDelegate.swift in Sources */,
 				B5E89BC42C493B56003434AC /* SceneDelegate.swift in Sources */,
 			);
