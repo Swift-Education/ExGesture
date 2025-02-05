@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B523DA0F2D41EF2900DA326F /* AdditiveColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523DA0E2D41EF2900DA326F /* AdditiveColorViewController.swift */; };
 		B523DA112D41F06400DA326F /* RouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523DA102D41F06400DA326F /* RouterViewController.swift */; };
+		B5544CB82D5315030070A749 /* DrawLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5544CB72D5315030070A749 /* DrawLineViewController.swift */; };
 		B5E89BC22C493B56003434AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC12C493B56003434AC /* AppDelegate.swift */; };
 		B5E89BC42C493B56003434AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC32C493B56003434AC /* SceneDelegate.swift */; };
 		B5E89BC62C493B56003434AC /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E89BC52C493B56003434AC /* ActionViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		B523DA0E2D41EF2900DA326F /* AdditiveColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditiveColorViewController.swift; sourceTree = "<group>"; };
 		B523DA102D41F06400DA326F /* RouterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewController.swift; sourceTree = "<group>"; };
+		B5544CB72D5315030070A749 /* DrawLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLineViewController.swift; sourceTree = "<group>"; };
 		B5E89BBE2C493B56003434AC /* ExGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E89BC12C493B56003434AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E89BC32C493B56003434AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				B5E89BD22C4A0672003434AC /* View.swift */,
 				B523DA0E2D41EF2900DA326F /* AdditiveColorViewController.swift */,
 				B523DA102D41F06400DA326F /* RouterViewController.swift */,
+				B5544CB72D5315030070A749 /* DrawLineViewController.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				B5E89C6F2C4EBEED003434AC /* UILabelBuilder.swift in Sources */,
 				B523DA112D41F06400DA326F /* RouterViewController.swift in Sources */,
 				B5E89BC22C493B56003434AC /* AppDelegate.swift in Sources */,
+				B5544CB82D5315030070A749 /* DrawLineViewController.swift in Sources */,
 				B5E89BC42C493B56003434AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
